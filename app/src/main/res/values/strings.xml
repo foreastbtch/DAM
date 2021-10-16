@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">temaDAM</string>
-    <string name="btn_login">Login</string>
-    <string name="tb_nume">Nume</string>
-    <string name="Plain_email">E-mail, username or phone</string>
-    <string name="Plain_password">Password</string>
-    <string name="textPass">Password</string>
-</resources>
