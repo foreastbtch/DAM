@@ -1926,6 +1926,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id button
+id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1997,6 +1998,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextDate2
+id editTextTextEmailAddress2
+id editTextTextPassword3
+id editTextTextPassword4
 id editTextTextPersonName
 id editTextTextPersonName2
 id edit_query
@@ -2042,6 +2047,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id immediateStop
 id included
 id info
@@ -2225,6 +2232,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2250,7 +2258,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
+id textView1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2367,6 +2375,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_main2
+layout activity_sign_up
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

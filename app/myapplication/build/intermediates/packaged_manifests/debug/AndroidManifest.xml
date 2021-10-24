@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Tema" >
         <activity
+            android:name="com.example.myapplication.SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.MainActivity2"
             android:exported="false" />
         <activity
