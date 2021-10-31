@@ -4,14 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
     tools:context=".MainActivity2">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fb"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="77dp" />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="272dp"
+        android:background="#2196F3"
+        android:text="Setari"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:background="#2196F3"
+        android:text="Acasa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="136dp"
+        android:background="#2196F3"
+        android:text="Notificari"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="409dp"
+        android:layout_height="691dp"
+        android:layout_marginTop="8dp"
+        android:dividerHeight="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

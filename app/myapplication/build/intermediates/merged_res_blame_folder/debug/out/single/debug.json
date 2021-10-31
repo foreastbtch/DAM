@@ -1,5 +1,57 @@
 [
     {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\layout_item_post.xml.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\layout\\item_post.xml"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_cat.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\cat.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_a7023d2a049175534009f05c2248e8f3.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\a7023d2a049175534009f05c2248e8f3.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_fb.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\fb.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable__e1.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\_e1.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_pika.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\pika.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable__04_5040528_empty_profile_picture_png_transparent_png.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\_04_5040528_empty_profile_picture_png_transparent_png.png"
+    },
+    {
         "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\layout_activity_main2.xml.flat",
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\layout\\activity_main2.xml"
     },
@@ -8,12 +60,20 @@
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable__22739_user_512x512.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\_22739_user_512x512.png"
+    },
+    {
         "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_cat2.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\cat2.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_eddeddeddycactus.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\eddeddeddycactus.png"
     },
     {
         "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -36,28 +96,8 @@
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_fb.png.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\fb.png"
-    },
-    {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -68,7 +108,11 @@
         "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_e686fa6954ee9a1672e4dd0c3859cfdc.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\e686fa6954ee9a1672e4dd0c3859cfdc.png"
+    },
+    {
+        "merged": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\build\\intermediates\\merged_res\\debug\\drawable_ezf_tstxiaed3yg.png.flat",
+        "source": "E:\\AN3\\AndroidStudioProjects\\Tema\\app\\myapplication\\src\\main\\res\\drawable\\ezf_tstxiaed3yg.png"
     }
 ]
