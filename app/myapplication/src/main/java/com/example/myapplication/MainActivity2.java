@@ -45,6 +45,36 @@ public class MainActivity2 extends AppCompatActivity {
                 return false;
             }
         });
+
+        JSONReader jsonReader = new JSONReader();
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                jsonReader.read("https://jsonkeeper.com/b/T29K", new IResponse() {
+                    @Override
+                    public void onSuccess(List<Model> modele) {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+//                                Toast.makeText(MainActivity2.this, modele.toString(), Toast.LENGTH_SHORT).show();
+                                postAdapter.updateList(modele);
+                            }
+                        });
+                    }
+
+                    @Override
+                    public void onError(String mesaj) {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(MainActivity2.this, mesaj, Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                });
+            }
+        });
+        thread.start();
     }
 
     private List<Model> getModele() {

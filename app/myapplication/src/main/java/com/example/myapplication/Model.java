@@ -13,6 +13,11 @@ public class Model {
         this.postImg = postImg;
     }
 
+    public Model(String userName, String descriere) {
+        this.userName = userName;
+        this.descriere = descriere;
+    }
+
     public int getPicImg() {
         return picImg;
     }
