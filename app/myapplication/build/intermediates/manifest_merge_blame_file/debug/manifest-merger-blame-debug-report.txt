@@ -61,6 +61,15 @@
 35-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:25:27-74
 36            </intent-filter>
 37        </activity>
-38    </application>
-39
-40</manifest>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+43    </application>
+44
+45</manifest>

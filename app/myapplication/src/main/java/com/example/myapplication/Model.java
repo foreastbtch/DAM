@@ -1,9 +1,20 @@
 package com.example.myapplication;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "model")
 public class Model {
+//    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey
     private int picImg;
+    @ColumnInfo(name = "user_name")
     private String userName;
+    @ColumnInfo(name = "descriere")
     private String descriere;
+    @ColumnInfo(name = "post_img")
     private int postImg;
 
     public Model(int picImg, String userName, String descriere, int postImg) {
@@ -13,6 +24,7 @@ public class Model {
         this.postImg = postImg;
     }
 
+    @Ignore
     public Model(String userName, String descriere) {
         this.userName = userName;
         this.descriere = descriere;

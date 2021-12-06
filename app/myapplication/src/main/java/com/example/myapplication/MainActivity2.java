@@ -3,6 +3,7 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -17,6 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     private ListView listView;
     private PostAdapter postAdapter;
+    private ModelDAO modelDAO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         postAdapter = new PostAdapter(getModele());
         listView = findViewById(R.id.listView1);
         listView.setAdapter(postAdapter);
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -32,6 +35,7 @@ public class MainActivity2 extends AppCompatActivity {
                 int rand_int = random.nextInt(2);
                 if (rand_int == 0) {
                     postAdapter.updateList(getModele());
+//                    postAdapter.updateList(lst1);
                 } else {
                     postAdapter.updateList(getModele2());
                 }
@@ -75,6 +79,19 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
         thread.start();
+        Thread thread1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                modelDAO = Database.getInstance(MainActivity2.this).getDatabase().modelDAO();
+                for (int i = 0; i < getModele().size(); i++) {
+                    modelDAO.insertAll(getModele().get(i));
+                }
+//        modelDAO.insertAll(getModele().get(0), getModele().get(1));
+                List<Model> lst1 = modelDAO.getModelsHigh(3);
+                Log.v("lst1", lst1.toString());
+            }
+        });
+        thread1.start();
     }
 
     private List<Model> getModele() {
