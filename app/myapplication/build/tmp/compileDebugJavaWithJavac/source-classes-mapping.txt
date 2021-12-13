@@ -2,10 +2,8 @@ com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
 com/example/myapplication/Model.java
  com.example.myapplication.Model
-com/example/myapplication/MainActivity.java
- com.example.myapplication.MainActivity
- com.example.myapplication.MainActivity$1
- com.example.myapplication.MainActivity$2
+com/example/myapplication/JSONReader.java
+ com.example.myapplication.JSONReader
 com/example/myapplication/ModelDAO.java
  com.example.myapplication.ModelDAO
 com/example/myapplication/DatabaseModel.java
@@ -21,8 +19,12 @@ com/example/myapplication/SignUpActivity.java
  com.example.myapplication.SignUpActivity$1
 com/example/myapplication/Database.java
  com.example.myapplication.Database
-com/example/myapplication/JSONReader.java
- com.example.myapplication.JSONReader
+com/example/myapplication/Model2Firebase.java
+ com.example.myapplication.Model2Firebase
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+ com.example.myapplication.MainActivity$2
 com/example/myapplication/MainActivity2.java
  com.example.myapplication.MainActivity2
  com.example.myapplication.MainActivity2$1
@@ -32,3 +34,4 @@ com/example/myapplication/MainActivity2.java
  com.example.myapplication.MainActivity2$3$1$1
  com.example.myapplication.MainActivity2$3$1$2
  com.example.myapplication.MainActivity2$4
+ com.example.myapplication.MainActivity2$5

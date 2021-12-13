@@ -14,62 +14,110 @@
 11-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:5:5-66
 11-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:5:22-64
 12
-13    <application
-13-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:6:5-28:19
-14        android:allowBackup="true"
-14-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:7:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.5.0] C:\Users\Andrei\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:8:9-43
-18        android:label="@string/app_name"
-18-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:9:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:10:9-54
-20        android:supportsRtl="true"
-20-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Tema" >
-22-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:12:9-42
-23        <activity
-23-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:13:9-15:40
-24            android:name="com.example.myapplication.SignUpActivity"
-24-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:14:13-43
-25            android:exported="false" />
-25-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:15:13-37
-26        <activity
-26-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:16:9-18:40
-27            android:name="com.example.myapplication.MainActivity2"
-27-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:17:13-42
-28            android:exported="false" />
-28-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:18:13-37
-29        <activity
-29-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:19:9-27:20
-30            android:name="com.example.myapplication.MainActivity"
-30-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:20:13-41
-31            android:exported="true" >
-31-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:21:13-36
-32            <intent-filter>
-32-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:22:13-26:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:23:17-69
-33-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:23:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:25:17-77
-35-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:25:27-74
-36            </intent-filter>
-37        </activity>
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:6:5-28:19
+18        android:allowBackup="true"
+18-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\Andrei\.gradle\caches\transforms-3\a810bc3cc4072918953833979cd07859\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:11:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Tema" >
+26-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:12:9-42
+27        <activity
+27-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:13:9-15:40
+28            android:name="com.example.myapplication.SignUpActivity"
+28-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:14:13-43
+29            android:exported="false" />
+29-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:15:13-37
+30        <activity
+30-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:16:9-18:40
+31            android:name="com.example.myapplication.MainActivity2"
+31-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:17:13-42
+32            android:exported="false" />
+32-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:18:13-37
+33        <activity
+33-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:19:9-27:20
+34            android:name="com.example.myapplication.MainActivity"
+34-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:20:13-41
+35            android:exported="true" >
+35-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:21:13-36
+36            <intent-filter>
+36-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:22:13-26:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:23:17-69
+37-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:23:25-66
 38
-39        <service
-39-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
-41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\8f0e7cceaf582441376ddf1e2d5825ba\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-43    </application>
-44
-45</manifest>
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:25:17-77
+39-->E:\AN3\AndroidStudioProjects\Tema\app\myapplication\src\main\AndroidManifest.xml:25:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Andrei\.gradle\caches\transforms-3\ff2278af8c4e92b6d0b7d9be9903faba\transformed\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+50        </service>
+51        <service
+51-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\6e0308c8c2e7f45ae24bff3e5be85b14\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\6e0308c8c2e7f45ae24bff3e5be85b14\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\6e0308c8c2e7f45ae24bff3e5be85b14\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\6e0308c8c2e7f45ae24bff3e5be85b14\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+63            android:authorities="com.example.myapplication.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+64            android:exported="false"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+65            android:initOrder="100" />
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Andrei\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Andrei\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

@@ -10,6 +10,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -27,6 +33,14 @@ public class MainActivity2 extends AppCompatActivity {
         postAdapter = new PostAdapter(getModele());
         listView = findViewById(R.id.listView1);
         listView.setAdapter(postAdapter);
+
+        writeDatabase();
+        readFromDatabase("pers0");
+        readFromDatabase("pers1");
+        readFromDatabase("pers2");
+        readFromDatabase("pers3");
+        readFromDatabase("pers4");
+        readFromDatabase("pers5");
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -108,6 +122,53 @@ public class MainActivity2 extends AppCompatActivity {
         lst.add(new Model(R.drawable._04_5040528_empty_profile_picture_png_transparent_png, "Zack Bukowski", "cute:)", R.drawable.pika));
         lst.add(new Model(R.drawable._22739_user_512x512, "Maria Garcia", "xd!", R.drawable.ezf_tstxiaed3yg));
         return lst;
+    }
+
+    private void writeDatabase() {
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+//        DatabaseReference myRef = database.getReference("Models");
+//        DatabaseReference myRef2 = database.getReference("ref2");
+
+
+        List<Model> lst = getModele();
+
+//        myRef.setValue("Models");
+        for (int i = 0; i < lst.size(); i++) {
+            DatabaseReference myRef = database.getReference("pers" + i + "");
+            myRef.child("userName").setValue(lst.get(i).getUserName());
+            myRef.child("descriere").setValue(lst.get(i).getDescriere());
+        }
+        lst = getModele2();
+        for (int i = 0; i < lst.size(); i++) {
+            int j = i + 3;
+            DatabaseReference myRef = database.getReference("pers" + j + "");
+            myRef.child("userName").setValue(lst.get(i).getUserName());
+            myRef.child("descriere").setValue(lst.get(i).getDescriere());
+        }
+//        myRef2.setValue("Test");
+//        myRef2.child("copil").setValue("Valoare copil2");
+    }
+
+    private void readFromDatabase(String v) {
+        // Read from the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference(v);
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                String value = dataSnapshot.getValue(Model2Firebase.class).toString();
+                Log.d("read2", "Value is: " + value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+                Log.w("cancelled", "Failed to read value.", error.toException());
+            }
+        });
     }
 
 }
